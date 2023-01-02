@@ -11,3 +11,14 @@ html, body{
     padding: 20px;
     font-size: 25px;
 }
+
+.carta{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 250px;
+}
