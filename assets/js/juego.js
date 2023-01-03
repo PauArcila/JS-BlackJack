@@ -22,3 +22,14 @@ const crearDeck = () => {
 
 crearDeck();
 
+const pedirCarta = () => {
+    if (deck.length === 0) {
+        throw 'No quedan cartas en el deck';
+    }
+    const carta = deck.pop();
+    console.log(carta);
+    return carta;
+}
+
+pedirCarta();
+
